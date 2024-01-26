@@ -1,0 +1,7 @@
+@mixin gap($value: 0px) {
+    gap: $value;
+}
+
+@mixin grid($cards: 0, $gap-value: 0) {
+    width: calc((100% - ($cards - 1) * $gap-value) / $cards);
+}

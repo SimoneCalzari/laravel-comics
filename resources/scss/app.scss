@@ -3,6 +3,7 @@
 
 @import "./partials/variables";
 @import "./partials/reset";
+@import "./partials/mixins";
 
 .my-container {
     width: 65%;
@@ -44,6 +45,40 @@ header {
     background-size: cover;
 }
 // JUMBO FINE
+
+// MAIN INIZIO
+main {
+    background-color: $main-bkg;
+    h2 {
+        font-size: 22px;
+        color: white;
+        padding: 10px 25px;
+        background-color: $primary-color;
+        display: inline-block;
+        transform: translateY(-50%);
+    }
+    .cards {
+        flex-wrap: wrap;
+        @include gap($main-grid-gap);
+        padding: 10px;
+        .my-card {
+            @include grid($cards-per-row, $main-grid-gap);
+            .img-box {
+                aspect-ratio: 1 / 1;
+                overflow: hidden;
+                // background-color: aqua;
+            }
+            h4 {
+                padding: 20px 0;
+                color: white;
+                font-size: 12px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+// MAIN FINE
 
 // FOOTER INIZIO
 .footer-top {
