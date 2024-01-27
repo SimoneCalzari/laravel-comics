@@ -7,11 +7,7 @@
 @import "./partials/mixins";
 @import "./partials/header";
 @import "./partials/footer";
-
-.my-container {
-    width: 65%;
-    margin: 0 auto;
-}
+@import "./partials/section-icons";
 
 // JUMBO INIZIO
 .jumbo {
@@ -63,59 +59,6 @@ main {
             margin-bottom: 20px;
             font-weight: bold;
         }
-    }
-    #icons-list {
-        background-color: $primary-color;
-        ul {
-            padding: 50px 40px;
-            gap: 30px;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 0;
-            li:first-child {
-                .img-box {
-                    width: 50px;
-                }
-            }
-            li:nth-child(2) {
-                .img-box {
-                    width: 55px;
-                }
-            }
-            li:nth-child(3) {
-                .img-box {
-                    width: 55px;
-                }
-            }
-            li:nth-child(4) {
-                .img-box {
-                    width: 40px;
-                }
-            }
-            li:last-child {
-                .img-box {
-                    width: 55px;
-                }
-            }
-        }
-    }
-
-    a {
-        color: white;
-        font-size: 12px;
-        display: block;
-    }
-
-    .img-box {
-        margin-right: 10px;
-        img {
-            width: 100%;
-            display: block;
-        }
-    }
-
-    li {
-        align-items: center;
     }
 }
 

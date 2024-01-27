@@ -22,6 +22,7 @@
     <!-- MAIN -->
     <main>
         @yield('main')
+        @include('shared.section_icons')
     </main>
     <!-- /MAIN -->
     @include('shared.footer')

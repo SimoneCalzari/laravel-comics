@@ -56,9 +56,8 @@
                     <!-- /SITES -->
                 </div>
                 <div class="col-12">
-                    <p class="w-50">All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise
-                        <a href="/">noted here</a>.
-                        All rights reserved.
+                    <p class="w-50">All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a
+                            href="/">noted here</a>. All rights reserved.
                     </p>
                     <span> <a href="">Cookie Settings</a></span>
                 </div>
