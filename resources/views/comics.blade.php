@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('style')
+    @vite('resources/js/comics.js')
+@endsection
 @section('main')
     <section id="main-content">
         <div class="my-container">
